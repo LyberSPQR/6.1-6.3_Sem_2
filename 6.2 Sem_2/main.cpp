@@ -91,7 +91,7 @@ int main()
 	arr.addObject(ship);
 	arr.addObject(missl);
 	arr.addObject(bonu);
-	//arr.deleteObject(3);
+	arr.deleteObject(3);
 	//arr.outArray();
 	arr.writeFile();			// 6.3
 	
