@@ -8,7 +8,8 @@ Bonus::Bonus()
 	cntAmmunition = 0;
 	existingTime = 0;
 }
-
+Bonus::~Bonus()
+{}
 void Bonus::setCntAmmunition(int data)
 {
 	cout << "Enter cntAmmunition" << endl;

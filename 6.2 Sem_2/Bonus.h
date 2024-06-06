@@ -8,7 +8,7 @@ class Bonus : public  SpaceObject
 public:
 
 	Bonus();
-
+	~Bonus();
 	void setCntAmmunition(int data);
 	int getCntAmmunition();
 	void outputCntAmmunition();

@@ -23,7 +23,7 @@ vector<int> SpaceObject::getSpeed()
     return this->Speed;
 }
 
-void SpaceObject::setCoordinates(vector<int> data)
+void SpaceObject::setCoordinates(vector<int>& data)
 {
 
     for (int i = 0; i < 3; i++)

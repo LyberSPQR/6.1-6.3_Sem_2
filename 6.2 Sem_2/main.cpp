@@ -24,7 +24,7 @@ public:
 
 	template<typename T>
 	DynamicArrayObjects(T object);
-
+	
 	SpaceObject** getArray()
 	{
 		return this->array;
@@ -65,7 +65,6 @@ int main()
 //	ship.outData();
 //
 //
-//
 //	//  Missle
 //	vector<int> dataMissle = { 3,3,3 };
 //	missl.setCoordinates(dataMissle);
@@ -73,27 +72,27 @@ int main()
 //	missl.setExplosivePower(3);
 //	missl.setFuelTime(3);
 //	missl.outData();
-
-	//  Bonus
-	// vector<int> dataBonus = { 4,4,4 };
-	//bonu.setCoordinates(dataBonus);
-	//bonu.setSpeed(dataBonus);
-	//bonu.setCntAmmunition(3);
-	//bonu.setExistingTime(3);
-	//bonu.outData();
+//
+//	//  Bonus
+//	 vector<int> dataBonus = { 4,4,4 };
+//	bonu.setCoordinates(dataBonus);
+//	bonu.setSpeed(dataBonus);
+//	bonu.setCntAmmunition(3);
+//	bonu.setExistingTime(3);
+//	bonu.outData();
 
 	DynamicArrayObjects arr;
 	
 	arr.createArray();
 
-/*	arr.readFile();	*/			// 6.3
-	arr.addObject(aster);
-	arr.addObject(ship);
-	arr.addObject(missl);
-	arr.addObject(bonu);
-	arr.deleteObject(3);
+	arr.readFile();				// 6.3
+	//arr.addObject(aster);
+	//arr.addObject(ship);
+	//arr.addObject(missl);
+	//arr.addObject(bonu);
+	//arr.deleteObject(3);
 	//arr.outArray();
-	arr.writeFile();			// 6.3
+/*	arr.writeFile();*/			// 6.3
 	
 	arr.outArray();
 

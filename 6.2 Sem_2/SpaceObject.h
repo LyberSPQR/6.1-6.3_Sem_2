@@ -12,7 +12,7 @@ public:
 	SpaceObject();
 	vector<int> getCoordinates();
 	vector<int> getSpeed();
-	void setCoordinates(vector<int> data);
+	void setCoordinates(vector<int>& data);
 	void setSpeed(vector<int> data);
 	void outputSpeed();
 	void outputCoordinates();
